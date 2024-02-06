@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #272727;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 4.9rem;
+    font-weight: 700;
+
+}
+
+span {
+    margin-top: 1.3rem;
+    margin-bottom: 2.9rem;
+
+    color: #F2ECD9;
+    font-family: Inter;
+    font-size: 4.9rem;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    gap: 2.2rem;
+}
+
+button {
+    width: 10.3rem;
+    height: 2.7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.add-button {
+    background: #CF96AA;
+
+    color: #FAFAFA;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.reset-button {
+    background: #F2ECD9;
+
+    color: none;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.less-button {
+    background: #302C5F;
+
+    color: #FAFAFA;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
